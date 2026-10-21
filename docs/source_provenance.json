@@ -1,0 +1,34 @@
+{
+  "backbone": {
+    "source": "code/src/model_flow.py",
+    "sha256": "ed3d9250818fb5b25b2e4806424b0b3ae4e9ebc603c15703016efb4a1dd72e8f",
+    "symbols": [
+      "SinusoidalPositionalEmbedding",
+      "get_1d_sincos_pos_embed",
+      "SourceEncoder1D",
+      "PatchEmbed1D",
+      "modulate_tokens",
+      "VibraDiTBlock",
+      "VibraDiTFinalLayer",
+      "VibraDiTVelocityFieldNetwork"
+    ]
+  },
+  "training": {
+    "source": "scratch_train.py",
+    "sha256": "a056f5192f95d59fada7818ea81d159e32da643ae0a37fdae106e7dcf2607f3a"
+  },
+  "data": {
+    "source": "code/reproduce/data.py",
+    "sha256": "59e4532c7f819afcda16625105181e80a0b3e14c8c2a3bddad9646470877e08f"
+  },
+  "baseline_transformer": {
+    "source": "code/reproduce/baselines.py",
+    "sha256": "c013185341ddb383222aaf7c21fec08787eaef652da25bc7893abb071d1391b6"
+  },
+  "baseline_cnn": {
+    "source": "code/reproduce/cnn_1d.py",
+    "sha256": "149070e5bec44311b77ee60d631736e9f888217c88f24c228073e4cb8a6e70a1"
+  },
+  "legacy_git_commit": "88e29a72f8469123143fbd5f5fc8af01326352f1",
+  "adaptation": "Package imports and portable paths; only the current one-step formulations are exposed. Training sequence and checkpoint tensor names are retained."
+}

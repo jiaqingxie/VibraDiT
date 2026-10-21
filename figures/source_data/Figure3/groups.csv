@@ -1,0 +1,9 @@
+group,smarts,window_low,window_high,n
+Carbonyl,[CX3]=[OX1],1600,1900,6680
+Ether,[OX2H0]([#6;!$([CX3]=[OX1])])[#6;!$([CX3]=[OX1])],900,1350,7729
+Hydroxyl,[OX2H],3300,3900,6483
+N–H,"[N;H1,H2]",3100,3700,5938
+Nitrile,[CX2]#[NX1],2100,2400,2501
+Alkene,[CX3]=[CX3],1500,1800,2455
+Alkyne,[CX2]#[CX2],2000,2300,2561
+C–F,[#6]-[F],1000,1400,298

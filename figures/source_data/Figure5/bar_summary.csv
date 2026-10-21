@@ -1,0 +1,61 @@
+target,model,feature,display,mean,sd,seeds
+LogP,vibradit,Source spectrum,Source IR,0.4885645555597737,0.0,4
+LogP,vae,VAE features,VAE,0.6415432409802496,0.009450445926459728,4
+LogP,pe,Transformer (PE) features,Transformer (PE),0.7902464325120121,0.010040370306535316,4
+LogP,vibradit,VibraDiT features,VibraDiT,0.7995985399464809,0.00221964967083345,4
+LogP,vibradit,Morgan fingerprint,Morgan FP,0.8820599370520996,0.0,4
+LogP,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.9322345801551,0.00064266128357185,4
+TPSA,vibradit,Source spectrum,Source IR,0.7240783289265698,0.0,4
+TPSA,vae,VAE features,VAE,0.800812618711576,0.009205728117467758,4
+TPSA,pe,Transformer (PE) features,Transformer (PE),0.9029853439806933,0.004386237944791057,4
+TPSA,vibradit,VibraDiT features,VibraDiT,0.9080325017754955,0.0017887385390999372,4
+TPSA,vibradit,Morgan fingerprint,Morgan FP,0.9151578706480846,0.0,4
+TPSA,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.9559444105598133,0.0006625118572312982,4
+H-bond donors,vibradit,Source spectrum,Source IR,0.6149782785101995,0.0,4
+H-bond donors,vae,VAE features,VAE,0.7502955248955869,0.02091790405550088,4
+H-bond donors,pe,Transformer (PE) features,Transformer (PE),0.9064744129001727,0.0017811196115752263,4
+H-bond donors,vibradit,VibraDiT features,VibraDiT,0.9135709906518128,0.004486181202675613,4
+H-bond donors,vibradit,Morgan fingerprint,Morgan FP,0.913352309863004,0.0,4
+H-bond donors,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.9579882465247584,0.00034905084524998264,4
+H-bond acceptors,vibradit,Source spectrum,Source IR,0.6064832000501349,0.0,4
+H-bond acceptors,vae,VAE features,VAE,0.6349451449356107,0.010546592234285094,4
+H-bond acceptors,pe,Transformer (PE) features,Transformer (PE),0.7793597733362453,0.01053349092798406,4
+H-bond acceptors,vibradit,VibraDiT features,VibraDiT,0.7814868998175823,0.004655958310521583,4
+H-bond acceptors,vibradit,Morgan fingerprint,Morgan FP,0.8844491216794477,0.0,4
+H-bond acceptors,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.9255299158058513,0.0009921901417104958,4
+Rotatable bonds,vibradit,Source spectrum,Source IR,0.324177515378955,0.0,4
+Rotatable bonds,vae,VAE features,VAE,0.46741270247270256,0.010081518190478225,4
+Rotatable bonds,pe,Transformer (PE) features,Transformer (PE),0.6323985450433333,0.004205311367734456,4
+Rotatable bonds,vibradit,VibraDiT features,VibraDiT,0.640098409385361,0.0058516851752820525,4
+Rotatable bonds,vibradit,Morgan fingerprint,Morgan FP,0.8950216241160627,0.0,4
+Rotatable bonds,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.9135677453108454,0.0005511913639172751,4
+Ring count,vibradit,Source spectrum,Source IR,0.486939704282148,0.0,4
+Ring count,vae,VAE features,VAE,0.6766571209773049,0.003056623463968595,4
+Ring count,pe,Transformer (PE) features,Transformer (PE),0.8119748718274554,0.00454574976571907,4
+Ring count,vibradit,VibraDiT features,VibraDiT,0.8029691319158945,0.005007053317145901,4
+Ring count,vibradit,Morgan fingerprint,Morgan FP,0.8375541779526277,0.0,4
+Ring count,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.8873872443646007,0.00146739637267639,4
+Fraction sp3 carbon,vibradit,Source spectrum,Source IR,0.614563342814499,0.0,4
+Fraction sp3 carbon,vae,VAE features,VAE,0.8320913182835108,0.004810093681462622,4
+Fraction sp3 carbon,pe,Transformer (PE) features,Transformer (PE),0.9324561608562345,0.006592827561734055,4
+Fraction sp3 carbon,vibradit,VibraDiT features,VibraDiT,0.9314039245824883,0.00482677130704412,4
+Fraction sp3 carbon,vibradit,Morgan fingerprint,Morgan FP,0.9374315629300076,0.0,4
+Fraction sp3 carbon,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.9696801809907476,0.0008307118002520828,4
+Aromatic rings,vibradit,Source spectrum,Source IR,0.5224956566240022,0.0,4
+Aromatic rings,vae,VAE features,VAE,0.7004356037310616,0.010408774030701526,4
+Aromatic rings,pe,Transformer (PE) features,Transformer (PE),0.8249138686083259,0.009707271088419631,4
+Aromatic rings,vibradit,VibraDiT features,VibraDiT,0.8188001687014759,0.007956430055966668,4
+Aromatic rings,vibradit,Morgan fingerprint,Morgan FP,0.9230177520764854,0.0,4
+Aromatic rings,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.9369381410705637,0.0006734850994429782,4
+Molar refractivity,vibradit,Source spectrum,Source IR,0.4342122171971889,0.0,4
+Molar refractivity,vae,VAE features,VAE,0.5690471450442791,0.0056460795798059646,4
+Molar refractivity,pe,Transformer (PE) features,Transformer (PE),0.7578423616532796,0.010004037966836476,4
+Molar refractivity,vibradit,VibraDiT features,VibraDiT,0.7743314853780702,0.0041789547512093034,4
+Molar refractivity,vibradit,Morgan fingerprint,Morgan FP,0.6999180753605304,0.0,4
+Molar refractivity,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.8215311829399881,0.0029818281038798927,4
+Labute ASA,vibradit,Source spectrum,Source IR,0.1565008757954807,0.0,4
+Labute ASA,vae,VAE features,VAE,0.29585849900986305,0.0032690243785348815,4
+Labute ASA,pe,Transformer (PE) features,Transformer (PE),0.49219737097117855,0.010678937254947698,4
+Labute ASA,vibradit,VibraDiT features,VibraDiT,0.5204282073903417,0.007163135625890452,4
+Labute ASA,vibradit,Morgan fingerprint,Morgan FP,0.4443363065881955,0.0,4
+Labute ASA,vibradit,VibraDiT + Morgan,VibraDiT + Morgan,0.5983434230243152,0.007487940104421289,4

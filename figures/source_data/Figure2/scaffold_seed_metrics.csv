@@ -1,0 +1,337 @@
+source,model,seed,kind,group,n,r2
+ir,pe,0,display,Acyclic,2079,0.9357499038535517
+ir,pe,0,display,C1CO1,345,0.9454638460002995
+ir,pe,0,display,C1CC1,855,0.9562508002783848
+ir,pe,0,display,Other scaffolds,14506,0.9489687446750685
+ir,pe,0,display,C1COC1,283,0.9389529463135433
+ir,pe,0,display,C1CN1,545,0.9477118297542559
+ir,pe,0,display,C1CCC1,343,0.9458805194450381
+ir,pe,0,display,C1CC2CC12,257,0.9642986665218817
+ir,pe,0,display,c1cc[nH]c1,246,0.9480701058301199
+ir,pe,0,class,Acyclic,2079,0.9357499038535517
+ir,pe,0,class,Aliphatic heterocycle,10396,0.9511295616635147
+ir,pe,0,class,Aliphatic carbocycle,3706,0.9540854122354456
+ir,pe,0,class,Aromatic heterocycle,3228,0.937351053934135
+ir,pe,0,class,Aromatic carbocycle,50,0.9536212197919995
+ir,pe,1,display,Acyclic,2079,0.9367086467750309
+ir,pe,1,display,C1CO1,345,0.9444021974686443
+ir,pe,1,display,C1CC1,855,0.9581564562117487
+ir,pe,1,display,Other scaffolds,14506,0.949494202562588
+ir,pe,1,display,C1COC1,283,0.9379384389730644
+ir,pe,1,display,C1CN1,545,0.9487760313348121
+ir,pe,1,display,C1CCC1,343,0.946607662556316
+ir,pe,1,display,C1CC2CC12,257,0.9633809760303328
+ir,pe,1,display,c1cc[nH]c1,246,0.9460801939060873
+ir,pe,1,class,Acyclic,2079,0.9367086467750309
+ir,pe,1,class,Aliphatic heterocycle,10396,0.9516127002140085
+ir,pe,1,class,Aliphatic carbocycle,3706,0.9550752948047084
+ir,pe,1,class,Aromatic heterocycle,3228,0.9373281182059847
+ir,pe,1,class,Aromatic carbocycle,50,0.9553234624997816
+ir,pe,2,display,Acyclic,2079,0.9368181019870142
+ir,pe,2,display,C1CO1,345,0.9459616790209754
+ir,pe,2,display,C1CC1,855,0.9570481368899951
+ir,pe,2,display,Other scaffolds,14506,0.9492913758708253
+ir,pe,2,display,C1COC1,283,0.9378754801211251
+ir,pe,2,display,C1CN1,545,0.9495109926120432
+ir,pe,2,display,C1CCC1,343,0.9486952611794854
+ir,pe,2,display,C1CC2CC12,257,0.9626423046468361
+ir,pe,2,display,c1cc[nH]c1,246,0.9471894385362315
+ir,pe,2,class,Acyclic,2079,0.9368181019870142
+ir,pe,2,class,Aliphatic heterocycle,10396,0.9517509982390084
+ir,pe,2,class,Aliphatic carbocycle,3706,0.9543506786407585
+ir,pe,2,class,Aromatic heterocycle,3228,0.9369761442915163
+ir,pe,2,class,Aromatic carbocycle,50,0.9596009756707056
+ir,pe,3,display,Acyclic,2079,0.9360400267075374
+ir,pe,3,display,C1CO1,345,0.9473648891782079
+ir,pe,3,display,C1CC1,855,0.9561351138046429
+ir,pe,3,display,Other scaffolds,14506,0.9488080036119257
+ir,pe,3,display,C1COC1,283,0.9370716856970459
+ir,pe,3,display,C1CN1,545,0.9485653115694731
+ir,pe,3,display,C1CCC1,343,0.946072544302866
+ir,pe,3,display,C1CC2CC12,257,0.9616654973345856
+ir,pe,3,display,c1cc[nH]c1,246,0.946848575162848
+ir,pe,3,class,Acyclic,2079,0.9360400267075374
+ir,pe,3,class,Aliphatic heterocycle,10396,0.9508346186160493
+ir,pe,3,class,Aliphatic carbocycle,3706,0.9536883884509745
+ir,pe,3,class,Aromatic heterocycle,3228,0.9378822019813513
+ir,pe,3,class,Aromatic carbocycle,50,0.9550149119008691
+ir,cnn,0,display,Acyclic,2079,0.9321496534819127
+ir,cnn,0,display,C1CO1,345,0.942151139005047
+ir,cnn,0,display,C1CC1,855,0.9505913072820363
+ir,cnn,0,display,Other scaffolds,14506,0.9430207743607568
+ir,cnn,0,display,C1COC1,283,0.9408345863158426
+ir,cnn,0,display,C1CN1,545,0.9453846699788236
+ir,cnn,0,display,C1CCC1,343,0.9466050962294343
+ir,cnn,0,display,C1CC2CC12,257,0.9596566616741118
+ir,cnn,0,display,c1cc[nH]c1,246,0.9335538339444936
+ir,cnn,0,class,Acyclic,2079,0.9321496534819127
+ir,cnn,0,class,Aliphatic heterocycle,10396,0.9475092980552683
+ir,cnn,0,class,Aliphatic carbocycle,3706,0.9503943091730205
+ir,cnn,0,class,Aromatic heterocycle,3228,0.9231875020103291
+ir,cnn,0,class,Aromatic carbocycle,50,0.9440444193205195
+ir,cnn,1,display,Acyclic,2079,0.9329767772552977
+ir,cnn,1,display,C1CO1,345,0.9421392256175949
+ir,cnn,1,display,C1CC1,855,0.9502896864769644
+ir,cnn,1,display,Other scaffolds,14506,0.943623106068931
+ir,cnn,1,display,C1COC1,283,0.9398196953616649
+ir,cnn,1,display,C1CN1,545,0.945583412760621
+ir,cnn,1,display,C1CCC1,343,0.9475688215491027
+ir,cnn,1,display,C1CC2CC12,257,0.9602970150928343
+ir,cnn,1,display,c1cc[nH]c1,246,0.929339387089332
+ir,cnn,1,class,Acyclic,2079,0.9329767772552977
+ir,cnn,1,class,Aliphatic heterocycle,10396,0.9479373744936409
+ir,cnn,1,class,Aliphatic carbocycle,3706,0.9508892411938424
+ir,cnn,1,class,Aromatic heterocycle,3228,0.9236883035169103
+ir,cnn,1,class,Aromatic carbocycle,50,0.9411207238999124
+ir,cnn,2,display,Acyclic,2079,0.9319344772058291
+ir,cnn,2,display,C1CO1,345,0.9417533234214256
+ir,cnn,2,display,C1CC1,855,0.9513273725904006
+ir,cnn,2,display,Other scaffolds,14506,0.9430526784106661
+ir,cnn,2,display,C1COC1,283,0.9421155335730355
+ir,cnn,2,display,C1CN1,545,0.9442293848787062
+ir,cnn,2,display,C1CCC1,343,0.9465346088458648
+ir,cnn,2,display,C1CC2CC12,257,0.9597831249450479
+ir,cnn,2,display,c1cc[nH]c1,246,0.9326721495149949
+ir,cnn,2,class,Acyclic,2079,0.9319344772058291
+ir,cnn,2,class,Aliphatic heterocycle,10396,0.9475363981090306
+ir,cnn,2,class,Aliphatic carbocycle,3706,0.9504891961643827
+ir,cnn,2,class,Aromatic heterocycle,3228,0.9232135492939826
+ir,cnn,2,class,Aromatic carbocycle,50,0.9392790761681644
+ir,cnn,3,display,Acyclic,2079,0.9327944374075798
+ir,cnn,3,display,C1CO1,345,0.9426201827041116
+ir,cnn,3,display,C1CC1,855,0.9512447041497116
+ir,cnn,3,display,Other scaffolds,14506,0.9432976467004404
+ir,cnn,3,display,C1COC1,283,0.9413415489409818
+ir,cnn,3,display,C1CN1,545,0.9448455258380989
+ir,cnn,3,display,C1CCC1,343,0.9492278231829514
+ir,cnn,3,display,C1CC2CC12,257,0.9598866125189718
+ir,cnn,3,display,c1cc[nH]c1,246,0.9303502911743065
+ir,cnn,3,class,Acyclic,2079,0.9327944374075798
+ir,cnn,3,class,Aliphatic heterocycle,10396,0.9475551338627124
+ir,cnn,3,class,Aliphatic carbocycle,3706,0.9508005786973703
+ir,cnn,3,class,Aromatic heterocycle,3228,0.9240270783176072
+ir,cnn,3,class,Aromatic carbocycle,50,0.9453393469825941
+ir,vibradit,0,display,Acyclic,2079,0.9390044298532928
+ir,vibradit,0,display,C1CO1,345,0.9484639973132164
+ir,vibradit,0,display,C1CC1,855,0.9574002261623988
+ir,vibradit,0,display,Other scaffolds,14506,0.9504679020588961
+ir,vibradit,0,display,C1COC1,283,0.9413167247675093
+ir,vibradit,0,display,C1CN1,545,0.9499996033954806
+ir,vibradit,0,display,C1CCC1,343,0.9505833450354257
+ir,vibradit,0,display,C1CC2CC12,257,0.9634152680332964
+ir,vibradit,0,display,c1cc[nH]c1,246,0.9449364248138257
+ir,vibradit,0,class,Acyclic,2079,0.9390044298532928
+ir,vibradit,0,class,Aliphatic heterocycle,10396,0.9529571100050483
+ir,vibradit,0,class,Aliphatic carbocycle,3706,0.9548124080554802
+ir,vibradit,0,class,Aromatic heterocycle,3228,0.9387287508293553
+ir,vibradit,0,class,Aromatic carbocycle,50,0.9567188172131573
+ir,vibradit,1,display,Acyclic,2079,0.9400596059131121
+ir,vibradit,1,display,C1CO1,345,0.9500518836182208
+ir,vibradit,1,display,C1CC1,855,0.9588925280955398
+ir,vibradit,1,display,Other scaffolds,14506,0.950735198628735
+ir,vibradit,1,display,C1COC1,283,0.9419788015110934
+ir,vibradit,1,display,C1CN1,545,0.9523009047691876
+ir,vibradit,1,display,C1CCC1,343,0.9479965687536209
+ir,vibradit,1,display,C1CC2CC12,257,0.9631845135872572
+ir,vibradit,1,display,c1cc[nH]c1,246,0.9456235727900273
+ir,vibradit,1,class,Acyclic,2079,0.9400596059131121
+ir,vibradit,1,class,Aliphatic heterocycle,10396,0.9538029697828925
+ir,vibradit,1,class,Aliphatic carbocycle,3706,0.955243854969647
+ir,vibradit,1,class,Aromatic heterocycle,3228,0.9374528035865389
+ir,vibradit,1,class,Aromatic carbocycle,50,0.9585477645640903
+ir,vibradit,2,display,Acyclic,2079,0.9383394592570585
+ir,vibradit,2,display,C1CO1,345,0.9469306619825362
+ir,vibradit,2,display,C1CC1,855,0.9556453546239361
+ir,vibradit,2,display,Other scaffolds,14506,0.9498548034993761
+ir,vibradit,2,display,C1COC1,283,0.9419856393311052
+ir,vibradit,2,display,C1CN1,545,0.9510347229347611
+ir,vibradit,2,display,C1CCC1,343,0.947656532686028
+ir,vibradit,2,display,C1CC2CC12,257,0.9627637864862342
+ir,vibradit,2,display,c1cc[nH]c1,246,0.9457269547506512
+ir,vibradit,2,class,Acyclic,2079,0.9383394592570585
+ir,vibradit,2,class,Aliphatic heterocycle,10396,0.9522887825440599
+ir,vibradit,2,class,Aliphatic carbocycle,3706,0.9539623523735632
+ir,vibradit,2,class,Aromatic heterocycle,3228,0.9384008294614038
+ir,vibradit,2,class,Aromatic carbocycle,50,0.9569254412117474
+ir,vibradit,3,display,Acyclic,2079,0.936185875829609
+ir,vibradit,3,display,C1CO1,345,0.9456967679811199
+ir,vibradit,3,display,C1CC1,855,0.9554538464004365
+ir,vibradit,3,display,Other scaffolds,14506,0.9480768866883355
+ir,vibradit,3,display,C1COC1,283,0.9360025462791629
+ir,vibradit,3,display,C1CN1,545,0.9468540326306208
+ir,vibradit,3,display,C1CCC1,343,0.9458048014764531
+ir,vibradit,3,display,C1CC2CC12,257,0.9618172078916184
+ir,vibradit,3,display,c1cc[nH]c1,246,0.9427311187297783
+ir,vibradit,3,class,Acyclic,2079,0.936185875829609
+ir,vibradit,3,class,Aliphatic heterocycle,10396,0.9505026715441797
+ir,vibradit,3,class,Aliphatic carbocycle,3706,0.9531524430522578
+ir,vibradit,3,class,Aromatic heterocycle,3228,0.9351263603987012
+ir,vibradit,3,class,Aromatic carbocycle,50,0.960384323153482
+raman,pe,0,display,Acyclic,2079,0.8883808792852205
+raman,pe,0,display,C1CO1,345,0.9018325074924903
+raman,pe,0,display,C1CC1,855,0.8838807509200902
+raman,pe,0,display,Other scaffolds,14506,0.8637213948783188
+raman,pe,0,display,C1COC1,283,0.8925124460585528
+raman,pe,0,display,C1CN1,545,0.9020628487392579
+raman,pe,0,display,C1CCC1,343,0.9111169440285312
+raman,pe,0,display,C1CC2CC12,257,0.8852787370517489
+raman,pe,0,display,c1cc[nH]c1,246,0.8629997437116991
+raman,pe,0,class,Acyclic,2079,0.8883808792852205
+raman,pe,0,class,Aliphatic heterocycle,10396,0.8676551300340818
+raman,pe,0,class,Aliphatic carbocycle,3706,0.9016115953195692
+raman,pe,0,class,Aromatic heterocycle,3228,0.8338267551524766
+raman,pe,0,class,Aromatic carbocycle,50,0.7883540096055036
+raman,pe,1,display,Acyclic,2079,0.8933249023302168
+raman,pe,1,display,C1CO1,345,0.9004045160128172
+raman,pe,1,display,C1CC1,855,0.8838762580062886
+raman,pe,1,display,Other scaffolds,14506,0.8640609448325739
+raman,pe,1,display,C1COC1,283,0.8906505374484661
+raman,pe,1,display,C1CN1,545,0.9011841308369999
+raman,pe,1,display,C1CCC1,343,0.9123812791199707
+raman,pe,1,display,C1CC2CC12,257,0.8857851297043122
+raman,pe,1,display,c1cc[nH]c1,246,0.8596066958084065
+raman,pe,1,class,Acyclic,2079,0.8933249023302168
+raman,pe,1,class,Aliphatic heterocycle,10396,0.869104384954814
+raman,pe,1,class,Aliphatic carbocycle,3706,0.9006146106282873
+raman,pe,1,class,Aromatic heterocycle,3228,0.8314384419951106
+raman,pe,1,class,Aromatic carbocycle,50,0.7781571653465253
+raman,pe,2,display,Acyclic,2079,0.8890517093265752
+raman,pe,2,display,C1CO1,345,0.8955404415936715
+raman,pe,2,display,C1CC1,855,0.8838597509650008
+raman,pe,2,display,Other scaffolds,14506,0.8639757515040956
+raman,pe,2,display,C1COC1,283,0.8880075135365514
+raman,pe,2,display,C1CN1,545,0.8961175501436272
+raman,pe,2,display,C1CCC1,343,0.9134539071176413
+raman,pe,2,display,C1CC2CC12,257,0.8836573472158477
+raman,pe,2,display,c1cc[nH]c1,246,0.861649276951232
+raman,pe,2,class,Acyclic,2079,0.8890517093265752
+raman,pe,2,class,Aliphatic heterocycle,10396,0.868854954520543
+raman,pe,2,class,Aliphatic carbocycle,3706,0.900085790964837
+raman,pe,2,class,Aromatic heterocycle,3228,0.8309824014190628
+raman,pe,2,class,Aromatic carbocycle,50,0.7763818423252907
+raman,pe,3,display,Acyclic,2079,0.8909702264707677
+raman,pe,3,display,C1CO1,345,0.9003880108906521
+raman,pe,3,display,C1CC1,855,0.8833448512219326
+raman,pe,3,display,Other scaffolds,14506,0.8637260300580788
+raman,pe,3,display,C1COC1,283,0.8848589773966788
+raman,pe,3,display,C1CN1,545,0.9002846434263234
+raman,pe,3,display,C1CCC1,343,0.9145278627165031
+raman,pe,3,display,C1CC2CC12,257,0.8832800273672288
+raman,pe,3,display,c1cc[nH]c1,246,0.8613287402743888
+raman,pe,3,class,Acyclic,2079,0.8909702264707677
+raman,pe,3,class,Aliphatic heterocycle,10396,0.8686329068118342
+raman,pe,3,class,Aliphatic carbocycle,3706,0.9009009559565777
+raman,pe,3,class,Aromatic heterocycle,3228,0.8304678339651151
+raman,pe,3,class,Aromatic carbocycle,50,0.7789961773493019
+raman,cnn,0,display,Acyclic,2079,0.8425488678671058
+raman,cnn,0,display,C1CO1,345,0.8577601633670024
+raman,cnn,0,display,C1CC1,855,0.8360712857355949
+raman,cnn,0,display,Other scaffolds,14506,0.8255002428111395
+raman,cnn,0,display,C1COC1,283,0.8520630509744505
+raman,cnn,0,display,C1CN1,545,0.8590096296086143
+raman,cnn,0,display,C1CCC1,343,0.8816318991893168
+raman,cnn,0,display,C1CC2CC12,257,0.8488513558992032
+raman,cnn,0,display,c1cc[nH]c1,246,0.7940514958181473
+raman,cnn,0,class,Acyclic,2079,0.8425488678671058
+raman,cnn,0,class,Aliphatic heterocycle,10396,0.8362685657892622
+raman,cnn,0,class,Aliphatic carbocycle,3706,0.8703287579327783
+raman,cnn,0,class,Aromatic heterocycle,3228,0.7609678273472047
+raman,cnn,0,class,Aromatic carbocycle,50,0.6993898756975007
+raman,cnn,1,display,Acyclic,2079,0.8382362812443075
+raman,cnn,1,display,C1CO1,345,0.8553053856011742
+raman,cnn,1,display,C1CC1,855,0.8344168823139456
+raman,cnn,1,display,Other scaffolds,14506,0.8205584843854614
+raman,cnn,1,display,C1COC1,283,0.842633349987967
+raman,cnn,1,display,C1CN1,545,0.8535484224896063
+raman,cnn,1,display,C1CCC1,343,0.8851273461466792
+raman,cnn,1,display,C1CC2CC12,257,0.8536766282944891
+raman,cnn,1,display,c1cc[nH]c1,246,0.7844166376727055
+raman,cnn,1,class,Acyclic,2079,0.8382362812443075
+raman,cnn,1,class,Aliphatic heterocycle,10396,0.8323121625535509
+raman,cnn,1,class,Aliphatic carbocycle,3706,0.8688715564667333
+raman,cnn,1,class,Aromatic heterocycle,3228,0.7512489198123585
+raman,cnn,1,class,Aromatic carbocycle,50,0.6670123590103684
+raman,cnn,2,display,Acyclic,2079,0.8395209822178458
+raman,cnn,2,display,C1CO1,345,0.8554900705810127
+raman,cnn,2,display,C1CC1,855,0.8288223051721239
+raman,cnn,2,display,Other scaffolds,14506,0.8221545090331833
+raman,cnn,2,display,C1COC1,283,0.8470668736365449
+raman,cnn,2,display,C1CN1,545,0.8554467838201428
+raman,cnn,2,display,C1CCC1,343,0.8810956965520205
+raman,cnn,2,display,C1CC2CC12,257,0.8522933121472427
+raman,cnn,2,display,c1cc[nH]c1,246,0.7903953806432721
+raman,cnn,2,class,Acyclic,2079,0.8395209822178458
+raman,cnn,2,class,Aliphatic heterocycle,10396,0.8327290571586634
+raman,cnn,2,class,Aliphatic carbocycle,3706,0.8680168907328363
+raman,cnn,2,class,Aromatic heterocycle,3228,0.7565538284349166
+raman,cnn,2,class,Aromatic carbocycle,50,0.7102742208251052
+raman,cnn,3,display,Acyclic,2079,0.84170807909491
+raman,cnn,3,display,C1CO1,345,0.8569011995298123
+raman,cnn,3,display,C1CC1,855,0.8343802488085817
+raman,cnn,3,display,Other scaffolds,14506,0.8260342478201488
+raman,cnn,3,display,C1COC1,283,0.848332241729457
+raman,cnn,3,display,C1CN1,545,0.8585741722735587
+raman,cnn,3,display,C1CCC1,343,0.8876955714476703
+raman,cnn,3,display,C1CC2CC12,257,0.8582184996482388
+raman,cnn,3,display,c1cc[nH]c1,246,0.7950084017857091
+raman,cnn,3,class,Acyclic,2079,0.84170807909491
+raman,cnn,3,class,Aliphatic heterocycle,10396,0.8359382662606085
+raman,cnn,3,class,Aliphatic carbocycle,3706,0.8718037375573163
+raman,cnn,3,class,Aromatic heterocycle,3228,0.763115309676584
+raman,cnn,3,class,Aromatic carbocycle,50,0.708769778668946
+raman,vibradit,0,display,Acyclic,2079,0.8903024833405413
+raman,vibradit,0,display,C1CO1,345,0.9041910493453605
+raman,vibradit,0,display,C1CC1,855,0.8856954362690784
+raman,vibradit,0,display,Other scaffolds,14506,0.8682531843372558
+raman,vibradit,0,display,C1COC1,283,0.8896070777974863
+raman,vibradit,0,display,C1CN1,545,0.9026135462468546
+raman,vibradit,0,display,C1CCC1,343,0.911775117557671
+raman,vibradit,0,display,C1CC2CC12,257,0.8856268440581777
+raman,vibradit,0,display,c1cc[nH]c1,246,0.8588540572656265
+raman,vibradit,0,class,Acyclic,2079,0.8903024833405413
+raman,vibradit,0,class,Aliphatic heterocycle,10396,0.8734180547136287
+raman,vibradit,0,class,Aliphatic carbocycle,3706,0.9020262067352994
+raman,vibradit,0,class,Aromatic heterocycle,3228,0.8355793180035352
+raman,vibradit,0,class,Aromatic carbocycle,50,0.7837838520986444
+raman,vibradit,1,display,Acyclic,2079,0.8897895145260499
+raman,vibradit,1,display,C1CO1,345,0.9024450521733567
+raman,vibradit,1,display,C1CC1,855,0.882942461387329
+raman,vibradit,1,display,Other scaffolds,14506,0.8657128069727752
+raman,vibradit,1,display,C1COC1,283,0.8859034340246511
+raman,vibradit,1,display,C1CN1,545,0.8996638039676977
+raman,vibradit,1,display,C1CCC1,343,0.9130138332125077
+raman,vibradit,1,display,C1CC2CC12,257,0.8844791118400208
+raman,vibradit,1,display,c1cc[nH]c1,246,0.8609585133617481
+raman,vibradit,1,class,Acyclic,2079,0.8897895145260499
+raman,vibradit,1,class,Aliphatic heterocycle,10396,0.8706844434939666
+raman,vibradit,1,class,Aliphatic carbocycle,3706,0.9000295882723783
+raman,vibradit,1,class,Aromatic heterocycle,3228,0.833387937567832
+raman,vibradit,1,class,Aromatic carbocycle,50,0.8053210015303398
+raman,vibradit,2,display,Acyclic,2079,0.8875317095038064
+raman,vibradit,2,display,C1CO1,345,0.905161734673672
+raman,vibradit,2,display,C1CC1,855,0.8871618943638788
+raman,vibradit,2,display,Other scaffolds,14506,0.8662258162419151
+raman,vibradit,2,display,C1COC1,283,0.8954841765164268
+raman,vibradit,2,display,C1CN1,545,0.8973172245942883
+raman,vibradit,2,display,C1CCC1,343,0.913946786552203
+raman,vibradit,2,display,C1CC2CC12,257,0.8868715860964821
+raman,vibradit,2,display,c1cc[nH]c1,246,0.8656888100667152
+raman,vibradit,2,class,Acyclic,2079,0.8875317095038064
+raman,vibradit,2,class,Aliphatic heterocycle,10396,0.8708636986426074
+raman,vibradit,2,class,Aliphatic carbocycle,3706,0.9028290879831365
+raman,vibradit,2,class,Aromatic heterocycle,3228,0.8346708213180978
+raman,vibradit,2,class,Aromatic carbocycle,50,0.7880797645706462
+raman,vibradit,3,display,Acyclic,2079,0.8892082860874779
+raman,vibradit,3,display,C1CO1,345,0.9081359220889661
+raman,vibradit,3,display,C1CC1,855,0.8848293355404262
+raman,vibradit,3,display,Other scaffolds,14506,0.8673112886257419
+raman,vibradit,3,display,C1COC1,283,0.890079251738877
+raman,vibradit,3,display,C1CN1,545,0.9039136693077355
+raman,vibradit,3,display,C1CCC1,343,0.9111803686781694
+raman,vibradit,3,display,C1CC2CC12,257,0.8859560540826047
+raman,vibradit,3,display,c1cc[nH]c1,246,0.8650778833152818
+raman,vibradit,3,class,Acyclic,2079,0.8892082860874779
+raman,vibradit,3,class,Aliphatic heterocycle,10396,0.8724538902958229
+raman,vibradit,3,class,Aliphatic carbocycle,3706,0.9020059829639314
+raman,vibradit,3,class,Aromatic heterocycle,3228,0.8349340578260129
+raman,vibradit,3,class,Aromatic carbocycle,50,0.8116336487383005

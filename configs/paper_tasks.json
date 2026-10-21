@@ -1,0 +1,6554 @@
+{
+  "qm9s_vibradit_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_vibradit_ir_seed0",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_vibradit_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_vibradit_raman_seed0",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_pe_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_pe_ir_seed0",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_pe_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_pe_raman_seed0",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_cnn_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_cnn_ir_seed0",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_cnn_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_cnn_raman_seed0",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_vibradit_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_vibradit_ir_seed1",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_vibradit_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_vibradit_raman_seed1",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_pe_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_pe_ir_seed1",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_pe_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_pe_raman_seed1",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_cnn_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_cnn_ir_seed1",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_cnn_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_cnn_raman_seed1",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_vibradit_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_vibradit_ir_seed2",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_vibradit_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_vibradit_raman_seed2",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_pe_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_pe_ir_seed2",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_pe_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_pe_raman_seed2",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_cnn_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_cnn_ir_seed2",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_cnn_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_cnn_raman_seed2",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_vibradit_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_vibradit_ir_seed3",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_vibradit_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_vibradit_raman_seed3",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_pe_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_pe_ir_seed3",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_pe_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_pe_raman_seed3",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_cnn_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.0040851537534335024,
+      "r2": 0.943421851116532
+    },
+    "name": "qm9s_cnn_ir_seed3",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qm9s_cnn_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011128411139605637,
+      "r2": 0.8389148508235059
+    },
+    "name": "qm9s_cnn_raman_seed3",
+    "dataset": "qm9s",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "80a703e4364daee91d5226724b5faa5b278c4e17886723940871f0ec8201f141",
+      "length": 3501,
+      "counts": {
+        "train": 90762,
+        "val": 19513,
+        "test": 19459
+      },
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8"
+    }
+  },
+  "qme14s_vibradit_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_vibradit_ir_seed0",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_vibradit_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_vibradit_raman_seed0",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_pe_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_pe_ir_seed0",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_pe_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_pe_raman_seed0",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_cnn_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_cnn_ir_seed0",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_cnn_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_cnn_raman_seed0",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "vibench_full_vibradit_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_vibradit_ir_seed0",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_vibradit_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_vibradit_raman_seed0",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_pe_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_pe_ir_seed0",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_pe_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_pe_raman_seed0",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_cnn_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_cnn_ir_seed0",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_cnn_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_cnn_raman_seed0",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "qme14s_vibradit_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_vibradit_ir_seed1",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_vibradit_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_vibradit_raman_seed1",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_pe_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_pe_ir_seed1",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_pe_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_pe_raman_seed1",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_cnn_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_cnn_ir_seed1",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_cnn_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_cnn_raman_seed1",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "vibench_full_vibradit_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_vibradit_ir_seed1",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_vibradit_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_vibradit_raman_seed1",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_pe_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_pe_ir_seed1",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_pe_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_pe_raman_seed1",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_cnn_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_cnn_ir_seed1",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_cnn_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_cnn_raman_seed1",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "qme14s_vibradit_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_vibradit_ir_seed2",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_vibradit_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_vibradit_raman_seed2",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_pe_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_pe_ir_seed2",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_pe_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_pe_raman_seed2",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_cnn_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_cnn_ir_seed2",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_cnn_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_cnn_raman_seed2",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "vibench_full_vibradit_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_vibradit_ir_seed2",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_vibradit_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_vibradit_raman_seed2",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_pe_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_pe_ir_seed2",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_pe_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_pe_raman_seed2",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_cnn_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_cnn_ir_seed2",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_cnn_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_cnn_raman_seed2",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "qme14s_vibradit_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_vibradit_ir_seed3",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_vibradit_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_vibradit_raman_seed3",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_pe_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_pe_ir_seed3",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_pe_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_pe_raman_seed3",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_cnn_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007303128147072765,
+      "r2": 0.8686980369235102
+    },
+    "name": "qme14s_cnn_ir_seed3",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_cnn_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.011489772413532709,
+      "r2": 0.7753592395695564
+    },
+    "name": "qme14s_cnn_raman_seed3",
+    "dataset": "qme14s",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "25a9379aa3af3caf1c8058e39ee58f342dff89a3e7e8f063550177e9b803f5e4",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 128804,
+        "val": 27627,
+        "test": 27693
+      },
+      "length": 3500
+    }
+  },
+  "vibench_full_vibradit_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_vibradit_ir_seed3",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_vibradit_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_vibradit_raman_seed3",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_pe_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_pe_ir_seed3",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_pe_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_pe_raman_seed3",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_cnn_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.013770202967223576,
+      "r2": 0.7812454172097726
+    },
+    "name": "vibench_full_cnn_ir_seed3",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "vibench_full_cnn_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 512,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.014713580066215115,
+      "r2": 0.6680623614149049
+    },
+    "name": "vibench_full_cnn_raman_seed3",
+    "dataset": "vibench_full",
+    "data_directory": "vibench_full",
+    "split_file": "configs/splits/vibench_full.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "877e0db40b57d1ba8395feaf868c16723d1e39e648298d1e814957882f1e075a",
+      "ir_sha256": "94160286f375398acbcc2280f862078452ec1a9ba197b38945f89fc297dd32fc",
+      "raman_sha256": "3cd1799bb1b35b2f9d7501cf0d40776f0d80b98d9df042f7a1c0a41a54351c91",
+      "counts": {
+        "train": 64582,
+        "val": 8863,
+        "test": 13846
+      },
+      "length": 1024
+    }
+  },
+  "qm9s_scaffold_vibradit_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_vibradit_ir_seed0",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_vibradit_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_vibradit_raman_seed0",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_pe_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_pe_ir_seed0",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_pe_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_pe_raman_seed0",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_cnn_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_cnn_ir_seed0",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_cnn_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_cnn_raman_seed0",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qme14s_scaffold_vibradit_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_vibradit_ir_seed0",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_vibradit_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_vibradit_raman_seed0",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_pe_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_pe_ir_seed0",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_pe_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_pe_raman_seed0",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_cnn_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_cnn_ir_seed0",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_cnn_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_cnn_raman_seed0",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qm9s_scaffold_vibradit_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_vibradit_ir_seed1",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_vibradit_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_vibradit_raman_seed1",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_pe_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_pe_ir_seed1",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_pe_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_pe_raman_seed1",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_cnn_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_cnn_ir_seed1",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_cnn_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_cnn_raman_seed1",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qme14s_scaffold_vibradit_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_vibradit_ir_seed1",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_vibradit_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_vibradit_raman_seed1",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_pe_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_pe_ir_seed1",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_pe_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_pe_raman_seed1",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_cnn_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_cnn_ir_seed1",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_cnn_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_cnn_raman_seed1",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qm9s_scaffold_vibradit_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_vibradit_ir_seed2",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_vibradit_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_vibradit_raman_seed2",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_pe_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_pe_ir_seed2",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_pe_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_pe_raman_seed2",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_cnn_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_cnn_ir_seed2",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_cnn_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_cnn_raman_seed2",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qme14s_scaffold_vibradit_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_vibradit_ir_seed2",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_vibradit_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_vibradit_raman_seed2",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_pe_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_pe_ir_seed2",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_pe_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_pe_raman_seed2",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_cnn_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_cnn_ir_seed2",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_cnn_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_cnn_raman_seed2",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qm9s_scaffold_vibradit_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_vibradit_ir_seed3",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_vibradit_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_vibradit_raman_seed3",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_pe_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_pe_ir_seed3",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_pe_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_pe_raman_seed3",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_cnn_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.004361363867779049,
+      "r2": 0.9350273434528172
+    },
+    "name": "qm9s_scaffold_cnn_ir_seed3",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qm9s_scaffold_cnn_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.012600765683685703,
+      "r2": 0.8005574689226835
+    },
+    "name": "qm9s_scaffold_cnn_raman_seed3",
+    "dataset": "qm9s_scaffold",
+    "data_directory": "qm9s",
+    "split_file": "configs/splits/qm9s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "7794ebc2603f8c8d95d6789ea6e2eb589acf895c2f4296567d2211df1ddef161",
+      "ir_sha256": "af32cb729bc999f163cf908d9e7c0928c4a4754fd819ee93ed14637c488f7a53",
+      "raman_sha256": "ac62a7ed423101497ea8d770c4c3916fd2b7e6b3affe15b8d505fa1804e3e5a8",
+      "counts": {
+        "train": 92523,
+        "val": 10812,
+        "test": 19038
+      },
+      "length": 3501
+    }
+  },
+  "qme14s_scaffold_vibradit_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_vibradit_ir_seed3",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_vibradit_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_vibradit_raman_seed3",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_pe_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_pe_ir_seed3",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_pe_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_pe_raman_seed3",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_cnn_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.007453803434952775,
+      "r2": 0.8505866054605691
+    },
+    "name": "qme14s_scaffold_cnn_ir_seed3",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "qme14s_scaffold_cnn_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 100,
+    "batch_size": 192,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.01226530416728597,
+      "r2": 0.7221639031834891
+    },
+    "name": "qme14s_scaffold_cnn_raman_seed3",
+    "dataset": "qme14s_scaffold",
+    "data_directory": "qme14s",
+    "split_file": "configs/splits/qme14s_scaffold.npz",
+    "patch_size": 20,
+    "data_contract": {
+      "split_sha256": "0970920f58ec60c58e8b665181211babc29c4f07f1eef3cdc784c0654bd7ae71",
+      "ir_sha256": "77d82107cdb62b02d86ba025b827a7bdd9c1c5f12ca4817964a63bf047bf8ded",
+      "raman_sha256": "a8095c34be58e9a884cd1f8be90922c0a2406f8e15a52a27e19e6515177dda55",
+      "counts": {
+        "train": 131470,
+        "val": 17036,
+        "test": 26904
+      },
+      "length": 3500
+    }
+  },
+  "rruff_vibradit_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_vibradit_ir_seed0",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_vibradit_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_vibradit_raman_seed0",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_pe_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_pe_ir_seed0",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_pe_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_pe_raman_seed0",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_cnn_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_cnn_ir_seed0",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_cnn_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_cnn_raman_seed0",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_vibradit_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_vibradit_ir_seed0",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_vibradit_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_vibradit_raman_seed0",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_pe_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_pe_ir_seed0",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_pe_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_pe_raman_seed0",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_cnn_ir_seed0": {
+    "source": "ir",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_cnn_ir_seed0",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_cnn_raman_seed0": {
+    "source": "raman",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_cnn_raman_seed0",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_vibradit_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_vibradit_ir_seed1",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_vibradit_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_vibradit_raman_seed1",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_pe_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_pe_ir_seed1",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_pe_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_pe_raman_seed1",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_cnn_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_cnn_ir_seed1",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_cnn_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_cnn_raman_seed1",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_vibradit_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_vibradit_ir_seed1",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_vibradit_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_vibradit_raman_seed1",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_pe_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_pe_ir_seed1",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_pe_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_pe_raman_seed1",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_cnn_ir_seed1": {
+    "source": "ir",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_cnn_ir_seed1",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_cnn_raman_seed1": {
+    "source": "raman",
+    "seed": 1,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_cnn_raman_seed1",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_vibradit_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_vibradit_ir_seed2",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_vibradit_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_vibradit_raman_seed2",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_pe_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_pe_ir_seed2",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_pe_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_pe_raman_seed2",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_cnn_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_cnn_ir_seed2",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_cnn_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_cnn_raman_seed2",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_vibradit_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_vibradit_ir_seed2",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_vibradit_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_vibradit_raman_seed2",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_pe_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_pe_ir_seed2",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_pe_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_pe_raman_seed2",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_cnn_ir_seed2": {
+    "source": "ir",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_cnn_ir_seed2",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_cnn_raman_seed2": {
+    "source": "raman",
+    "seed": 2,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_cnn_raman_seed2",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_vibradit_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_vibradit_ir_seed3",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_vibradit_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_vibradit_raman_seed3",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_pe_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_pe_ir_seed3",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_pe_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_pe_raman_seed3",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_cnn_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.20994385571811947,
+      "r2": -1.351535748233329
+    },
+    "name": "rruff_cnn_ir_seed3",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_cnn_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.1639146186113148,
+      "r2": -2.1068467483621522
+    },
+    "name": "rruff_cnn_raman_seed3",
+    "dataset": "rruff",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "5d04c666903494f35465fa74f0da19fc8f63e085e787437dac245579faa0e38a",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1438,
+        "val": 94,
+        "test": 125
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_vibradit_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_vibradit_ir_seed3",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_vibradit_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "vibradit",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.1,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_vibradit_raman_seed3",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_pe_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_pe_ir_seed3",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_pe_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "pe",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_pe_raman_seed3",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_cnn_ir_seed3": {
+    "source": "ir",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.0,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21621480900947948,
+      "r2": -1.1170542900647153
+    },
+    "name": "rruff_mineral_cnn_ir_seed3",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  },
+  "rruff_mineral_cnn_raman_seed3": {
+    "source": "raman",
+    "seed": 3,
+    "epochs": 30,
+    "batch_size": 128,
+    "validation_every": 5,
+    "config": {
+      "architecture": "cnn",
+      "steps": 1,
+      "dropout": 0.05,
+      "lr": 0.0002,
+      "terminal": "raw",
+      "velocity_weight": 0.0,
+      "shape_weight": 0.02,
+      "r2_weight": 0.005,
+      "ema_decay": 0.9995,
+      "locked_dropout": true
+    },
+    "selection_reference": {
+      "mae": 0.21507890795487486,
+      "r2": -1.404503409502491
+    },
+    "name": "rruff_mineral_cnn_raman_seed3",
+    "dataset": "rruff_mineral",
+    "data_directory": "rruff",
+    "split_file": "configs/splits/rruff_mineral.npz",
+    "patch_size": 4,
+    "data_contract": {
+      "split_sha256": "dcda67bd298a98f400aa9e17f51556a85b999eff2cd3455988f31139a668d2a6",
+      "ir_sha256": "0781c9175cd56d65bf37b92c408733f63652452a81aba5f6c693aae6a6dd163c",
+      "raman_sha256": "1161b310846138e7d1a3912ae6854cabecc80c1e13db9d81e370b45716c87481",
+      "counts": {
+        "train": 1223,
+        "val": 154,
+        "test": 215
+      },
+      "length": 576
+    }
+  }
+}

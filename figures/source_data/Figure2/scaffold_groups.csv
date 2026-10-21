@@ -1,0 +1,10 @@
+group,n,scaffold_smiles,kind
+Acyclic,2079,,aggregate
+C1CC1,855,C1CC1,exact
+C1CN1,545,C1CN1,exact
+C1CO1,345,C1CO1,exact
+C1CCC1,343,C1CCC1,exact
+C1COC1,283,C1COC1,exact
+C1CC2CC12,257,C1CC2CC12,exact
+c1cc[nH]c1,246,c1cc[nH]c1,exact
+Other scaffolds,14506,,aggregate
